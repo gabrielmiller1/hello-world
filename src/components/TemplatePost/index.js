@@ -12,7 +12,7 @@ export default function TemplatePost({ fotoCapa, titulo, children }) {
             <h2 className={styles.titulo}>
                 {titulo}
             </h2>
-            <div className={styles.postConteudo}>
+            <div className={styles.postConteudoContainer}>
                 {children}
             </div>
         </article>
